@@ -29,7 +29,7 @@
     </p>
     <p>
         <label asp-for="Rating">Rating:</label><br>
-        <select asp-for="Rating" id="rating" name="rating" required>
+        <select asp-for="Rating" required>
             <option value="">Select rating</option>
             <option value="G">G</option>
             <option value="PG">PG</option>
@@ -39,14 +39,14 @@
     </p>
     <p>
         <label asp-for="Edited">Edited:</label><br>
-        <select asp-for="Edited" id="edited" name="edited" value="true">
+        <select asp-for="Edited">
             <option value="true">Yes</option>
             <option value="false">No</option>
         </select>
     </p>
     <p>
         <label asp-for="LentTo">Lent to:</label><br>
-        <input type="text" id="lent_to" name="lent_to">
+        <input asp-for="LentTo">
     </p>
     <p>
         <label asp-for="Notes">Notes:</label>
