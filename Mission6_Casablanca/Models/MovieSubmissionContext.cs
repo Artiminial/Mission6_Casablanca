@@ -8,6 +8,7 @@ namespace Mission6_Casablanca.Models
         {
             // leave blank for now
         }
-        public DbSet<MovieSubmission> MovieStockpile { get; set; }
+        public DbSet<Movies> Movies { get; set; }
+        public DbSet<Categories> Categories { get; set; }
     }
 }
